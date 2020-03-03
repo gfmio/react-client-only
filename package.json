@@ -1,6 +1,6 @@
 {
   "name": "react-client-only",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helpers to only render React components in a browser (not SSR)",
   "main": "index.js",
   "module": "index.mjs",
