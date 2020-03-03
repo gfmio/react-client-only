@@ -1,11 +1,5 @@
 # react-client-only
 
-This package provides a utility component and a React hook for only rendering React components in the browser, but not during server-side rendering.
-
-This is useful for static-side generation when trying to avoid rehydration issues, e.g. for components dependent on the current user.
-
-Inspired & based on the examples in [this blog post](https://joshwcomeau.com/react/the-perils-of-rehydration).
-
 <!-- Github -->
 
 <p align="center">
@@ -95,6 +89,12 @@ Inspired & based on the examples in [this blog post](https://joshwcomeau.com/rea
     <img src="https://img.shields.io/snyk/vulnerabilities/npm/react-client-only.svg" alt="Known Vulnerabilities" title="Known Vulnerabilities">
   </a>  
 </p>
+
+This package provides a utility component and a React hook for only rendering React components in the browser, but not during server-side rendering.
+
+This is useful for static-side generation when trying to avoid rehydration issues, e.g. for components dependent on the current user.
+
+Inspired & based on the examples in [this blog post](https://joshwcomeau.com/react/the-perils-of-rehydration).
 
 ## Usage
 
