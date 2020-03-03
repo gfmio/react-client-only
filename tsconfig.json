@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "declaration": true,
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "moduleResolution": "node"
+  },
+  "files": ["index.ts"]
+}

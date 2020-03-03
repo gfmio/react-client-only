@@ -1,0 +1,36 @@
+{
+  "name": "react-client-only",
+  "version": "1.0.0",
+  "description": "Helpers to only render React components in a browser (not SSR)",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "repository": "https://github.com/gfmio/react-client-side-only",
+  "author": {
+    "email": "npm@gfm.io",
+    "name": "Frédérique Mittelstaedt",
+    "url": "https://www.gfm.io"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build:mjs": "tsc --target esnext --module esnext && mv index.js index.mjs",
+    "build:js": "tsc --target es5 --module commonjs",
+    "build": "npm-run-all build:mjs build:js"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "keywords": [
+    "react",
+    "ssr",
+    "browser",
+    "rendering",
+    "rehydration",
+    "client"
+  ]
+}
